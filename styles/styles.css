@@ -42,13 +42,6 @@
     font-size: 38px;
 }
 
-.icon--container {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
 .main-box--button {
     border: none;
     border-radius: 100px;
