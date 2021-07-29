@@ -37,6 +37,7 @@ body {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
     margin-bottom: 30px;
+    line-height: 26px;
 }
 
 .main-box--title {
