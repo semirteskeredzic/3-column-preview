@@ -1,0 +1,128 @@
+.main--container {
+    display: flex;
+    flex-direction: column;
+    margin: 85px 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.main-box--container {
+    padding: 50px;
+}
+
+.main-box--container:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.main-box--container:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.box--sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.box--suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box--luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.main-box--paragraph {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.main-box--title {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.icon--container {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.main-box--button {
+    border: none;
+    border-radius: 100px;
+    padding: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 15px 35px;
+    border: 2px solid transparent;
+    text-align: center;
+}
+
+.main-box--button:hover {
+    background-color: transparent;
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid  hsl(0, 0%, 95%);
+}
+
+.button--sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.button--suv {
+    color: hsl(184, 100%, 22%);
+}
+
+.button--luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    margin-top: 50px;
+    position: relative;
+    font-size: 10px;
+    width: 100%;
+}
+
+.attribution-text {
+    position: absolute;
+    width: 100%;
+    color: grey;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 1024px) {
+    .main--container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-box--container {
+        max-width: 205px;
+    }
+
+    .main-box--container:first-child {
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .main-box--container:last-child {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .main-box--paragraph {
+        margin-bottom: 80px;
+    }
+
+    .attribution {
+        font-size: 12px;
+        margin-top: 150px;
+    }
+}
